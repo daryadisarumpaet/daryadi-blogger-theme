@@ -1,0 +1,103 @@
+:root {
+  --color-grey: #cfcfcf;
+  --color-light-grey: #f3f3f3;
+  --font-main: "Segoe UI", Arial, sans-serif;
+  --radius-sm: 4px;
+  --radius: 8px;
+  --size-h1: 2rem;
+  --size-smaller: 0.9em;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing: 15px;
+}
+body {
+  font-family: var(--font-main);
+}
+a {
+  text-decoration: none;
+}
+article {
+  line-height: 1.5;
+}
+blockquote {
+  border: 2px dashed var(--color-grey);
+  border-radius: var(--radius);
+  margin-left: 0;
+  margin-right: 0;
+  padding: var(--spacing);
+}
+blockquote cite {
+  display: inline-block;
+  margin-top: var(--spacing);
+}
+code {
+  background: var(--color-light-grey);
+  border-radius: var(--radius-sm);
+  font-size: var(--size-smaller);
+  padding: 2px var(--spacing-xs);
+}
+figure {
+  margin-right: 0;
+  margin-left: 0;
+}
+h1, .h1 {
+  font-size: var(--size-h1);
+}
+hr {
+  border-color: var(--color-grey);
+  border-style: solid;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ol {
+  padding-left: var(--spacing);
+}
+p {
+  margin-bottom: 0;
+}
+p:first-child:first-of-type {
+  margin-top: 0;
+}
+pre {
+  background-color: var(--color-light-grey);
+  border-radius: var(--radius);
+  padding: var(--spacing);
+}
+table {
+  border: 1px solid var(--color-grey);
+  border-spacing: 0;
+  border-radius: var(--radius);
+}
+tbody tr:nth-child(odd) {
+  background-color: var(--color-light-grey);
+}
+td {
+  padding: var(--spacing-sm);
+}
+th {
+  padding: var(--spacing-sm);
+  text-align: left;
+}
+tr {
+  vertical-align: top;
+}
+ul {
+  padding-left: var(--spacing);
+}
+.hidden {
+  display: none;
+}
+.jump-link a {
+  display: inline-block;
+  border: 1px solid var(--color-grey);
+  padding: var(--spacing-xs);
+  border-radius: var(--radius);
+}
+#header {
+  padding-top: var(--spacing);
+}
+#footer {
+  text-align: center;
+}
