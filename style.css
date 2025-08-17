@@ -94,6 +94,9 @@ ul {
 .hidden {
   display: none;
 }
+.posts-list article {
+  margin-bottom: var(--spacing);
+}
 .posts-list article h3 {
   margin-top: var(--spacing-sm);
 }
