@@ -92,8 +92,24 @@ tr {
 ul {
   padding-left: var(--spacing);
 }
+.comment {
+  margin-bottom: var(--spacing-lg);
+}
+.comment-actions {
+  display: block;
+  margin-top: var(--spacing);
+}
+.comment-actions a {
+  margin-right: var(--spacing);
+}
+.comment-header .user {
+  margin-right: var(--spacing-xs);
+}
 .hidden {
   display: none;
+}
+.labels a {
+  margin-right: var(--spacing-sm);
 }
 .posts-list article {
   margin-bottom: var(--spacing-lg);
