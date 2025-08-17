@@ -14,6 +14,7 @@ License: No
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing: 15px;
+  --spacing-lg: 30px;
 }
 body {
   font-family: var(--font-main);
@@ -95,16 +96,39 @@ ul {
   display: none;
 }
 .posts-list article {
-  margin-bottom: var(--spacing);
+  margin-bottom: var(--spacing-lg);
 }
 .posts-list article h3 {
-  margin-top: var(--spacing-sm);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.post-tags {
+  margin-bottom: var(--spacing-sm);
+  margin-top: -0.4em;
+}
+.post-tags a {
+  display: inline-block;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  margin-right: var(--spacing-sm);
+}
+.post-thumbnail {
+  max-width: 110px;
+  padding-right: 0;
+}
+.post-thumbnail img {
+  border-radius: var(--radius-sm);
+  height: revert-layer;
+  object-fit: cover;
+}
+.jump-link{
+  margin-top: var(--spacing);
 }
 .jump-link a {
   display: inline-block;
   border: 1px solid var(--color-grey);
-  padding: var(--spacing-xs);
-  border-radius: var(--radius);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
 }
 #header {
   padding-top: var(--spacing);
