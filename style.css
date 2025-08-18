@@ -146,6 +146,9 @@ ul {
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--radius-sm);
 }
+#comment-editor {
+  margin-top: var(--spacing)
+}
 #header {
   padding-top: var(--spacing);
 }
