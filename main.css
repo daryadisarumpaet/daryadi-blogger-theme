@@ -92,50 +92,8 @@ tr {
 ul {
   padding-left: var(--spacing);
 }
-.comment {
-  margin-bottom: var(--spacing-lg);
-}
-.comment-actions {
-  display: block;
-  margin-top: var(--spacing);
-}
-.comment-actions a {
-  margin-right: var(--spacing);
-}
-.comment-header .user {
-  margin-right: var(--spacing-xs);
-}
 .hidden {
   display: none;
-}
-.labels a {
-  margin-right: var(--spacing-sm);
-}
-.posts-list article {
-  margin-bottom: var(--spacing-lg);
-}
-.posts-list article h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.post-tags {
-  margin-bottom: var(--spacing-sm);
-  margin-top: -0.4em;
-}
-.post-tags a {
-  display: inline-block;
-  font-size: 0.85em;
-  text-transform: uppercase;
-  margin-right: var(--spacing-sm);
-}
-.post-thumbnail {
-  max-width: 110px;
-  padding-right: 0;
-}
-.post-thumbnail img {
-  border-radius: var(--radius-sm);
-  height: revert-layer;
-  object-fit: cover;
 }
 .jump-link{
   margin-top: var(--spacing);
