@@ -1,1 +1,18 @@
-
+/*
+Name: Daryadi's Blogger Theme
+Author: Daryadi Sarumpaet
+License: No
+*/
+.comment {
+  margin-bottom: var(--spacing-lg);
+}
+.comment-actions {
+  display: block;
+  margin-top: var(--spacing);
+}
+.comment-actions a {
+  margin-right: var(--spacing);
+}
+.comment-header .user {
+  margin-right: var(--spacing-xs);
+}
