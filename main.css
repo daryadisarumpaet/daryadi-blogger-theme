@@ -4,8 +4,13 @@ Author: Daryadi Sarumpaet
 License: No
 */
 :root {
+  --bg: #f7f7f8;
+  --bg-element: #ffffff;
+  --bg-element-transparent: rgba(255, 255, 255, 0.7);
   --color-grey: #cfcfcf;
-  --color-light-grey: #f3f3f3;
+  --color-light-grey: #e8e8ec;
+  --color-text: #0b0b0d;
+  --color-text-secondary: #6a6a72;
   --font-main: "Segoe UI", Arial, sans-serif;
   --radius-sm: 4px;
   --radius: 8px;
@@ -17,9 +22,12 @@ License: No
   --spacing-lg: 30px;
 }
 body {
+  background: var(--bg);
+  color: var(--color-text);
   font-family: var(--font-main);
 }
 a {
+  color: var(--color-text);
   text-decoration: none;
 }
 article {
@@ -48,6 +56,7 @@ figure {
 }
 h1, .h1 {
   font-size: var(--size-h1);
+  font-weight: bold;
 }
 hr {
   border-color: var(--color-grey);
@@ -108,8 +117,21 @@ ul {
   margin-top: var(--spacing)
 }
 #header {
-  padding-top: var(--spacing);
+  border-bottom: 1px solid var(--color-grey);
+  padding: var(--spacing) 0;
+}
+#header h1, #header .h1 {
+  margin: 0;
 }
 #footer {
+  border-top: 1px solid var(--color-grey);
+  color: var(--color-text-secondary);
+  padding: var(--spacing-lg);
   text-align: center;
+}
+#footer a {
+color: var(--color-text-secondary);
+}
+#footer h6 {
+  margin: 0;
 }
